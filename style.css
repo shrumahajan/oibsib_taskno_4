@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  /*height: 100%;
+  width: 100%;*/
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  color: rgb(44, 3, 28);
+  font-weight: 300px;
+  font-size: larger;
+  background-color: peachpuff;
+  background-image: url(calculator.jpg);
+  background-repeat: no-repeat;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(100, 41, 41);
+  border-radius: 9px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 2px rgba(247, 136, 200, 0.8);
+  background-color: rgb(22, 20, 21);
+  color: white;
+  font-size: medium;
+  
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 300px;
+  font-size: 40px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 15px;
+    
+}
